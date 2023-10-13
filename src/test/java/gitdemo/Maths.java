@@ -26,6 +26,12 @@ public class Maths {
 		System.out.println("Hello World");
 	}		
 
+	public void greeting4()
+	{
+		System.out.println("Hello World");
+	}		
+
+
 	
 	public static void main(String[] args) {
 		Maths obj=new Maths();
@@ -36,6 +42,9 @@ public class Maths {
 		obj.greeting2();
 
 		obj.greeting3();
+		
+		obj.greeting4();
+		
 
 
 	}
